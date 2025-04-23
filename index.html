@@ -64,6 +64,16 @@
       border: none;
       text-decoration: none;
     }
+    
+    .btn-login a {
+    text-decoration: none; /* Removes the blue underline */
+    color: inherit; /* Inherits the color from the parent button */
+  }
+
+  .btn-login a:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+    color: inherit; /* Keeps the color consistent on hover */
+  }
 
     .btn-get-started {
         background-image: linear-gradient(to right, #000108f9, #969599);
@@ -100,7 +110,7 @@
       <a href="#">Docs</a>
     </div>
     <div class="navbar-actions">
-      <button type="button" class="btn btn-login"><a href="https://bit.ly/42lmoKI"></a>Apply for a job</button>
+      <button type="button" class="btn btn-login"><a href="https://bit.ly/42lmoKI">Apply for a job</a></button>
       <button class="btn btn-get-started"><a href="#"></a>Get Started</button>
     </div>
   </nav>
